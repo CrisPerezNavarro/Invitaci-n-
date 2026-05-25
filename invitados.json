@@ -1,14 +1,234 @@
 {
-  "familia-perez": {
-    "nombre": "Familia Pérez",
-    "pases": 4
-  },
-  "carlos-m": {
-    "nombre": "Carlos Mendoza",
+    "La-Magalis": {
+    "nombre": "Querida hermana Magaly Rojas V",
     "pases": 1
   },
-  "lucia-y-juan": {
-    "nombre": "Lucía y Juan",
+    "Rojas-Venegas": {
+    "nombre": "Queridos Padre y Madre",
+    "pases": 3
+  },
+    "Artavia-Rojas": {
+    "nombre": "Querida Hermana y Tony, dejar a Santi y pueden irse",
+    "pases": 3
+  },
+    "Victicor-Rojas": {
+    "nombre": "Querido Hermano",
+    "pases": 2
+  },
+    "Familia-Artavia": {
+    "nombre": "Familia Artavia",
+    "pases": 4
+  },
+    "Familia-Danilo": {
+    "nombre": "Familia Danilo",
+    "pases": 4
+  },
+    "Perez-Rojas": {
+    "nombre": "Perez Rojas",
+    "pases": 4
+  },
+    "Tia-Elena": {
+    "nombre": "Tia Elena",
+    "pases": 1
+  },
+    "Prima-Karol": {
+    "nombre": "Prima Karol",
+    "pases": 3
+  },
+    "Marta-Eugenio": {
+    "nombre": "Primos Marta y Eugenio",
+    "pases": 2
+  },
+    "Marcos-Meri": {
+    "nombre": "Marcos y Meri",
+    "pases": 2
+  },
+    "Abuela-Betty": {
+    "nombre": "Abuela Betty",
+    "pases": 1
+  },
+     "Tia-Seidy-Venegas": {
+    "nombre": "Tia Seidy Venegas",
+    "pases": 3
+  },
+    "Pablo": {
+    "nombre": "Primos Pablo y Liseth",
+    "pases": 6
+  },
+    "Tia-Seidy-Rojas": {
+    "nombre": "Tia Seidy Rojas",
+    "pases": 2
+  },
+    "Joseph": {
+    "nombre": "Amigo Joseph",
+    "pases": 1
+  },
+    "Fran": {
+    "nombre": "Amigo Fran",
+    "pases": 1
+  },
+    "Silvia": {
+    "nombre": "Amiga Silvia",
+    "pases": 1
+  },
+    "Arturo": {
+    "nombre": "Amigo Arturo y Katherine",
+    "pases": 2
+  },
+    "Papas-Arturo": {
+    "nombre": "Amigos",
+    "pases": 2
+  },
+    "Tia-Marielos": {
+    "nombre": "Tia Marielos",
+    "pases": 2
+  },
+    "Prima-Karla-Venegas": {
+    "nombre": "Prima Karla",
+    "pases": 3
+  },
+    "Prima-Pau": {
+    "nombre": "Prima Paula",
+    "pases": 2
+  },
+    "Laura": {
+    "nombre": "Amiga Laura",
+    "pases": 1
+  },
+    "Kerlyn": {
+    "nombre": "Amiga Kerlyn",
+    "pases": 2
+  },
+    "Eladio": {
+    "nombre": "Jorge y Yorlenita",
+    "pases": 2
+  },
+    "Madrina": {
+    "nombre": "Prima Paula",
+    "pases": 1
+  },
+    "Tio-Juan": {
+    "nombre": "Tio Juan",
+    "pases": 1
+  },
+    "Carlos": {
+    "nombre": "Carlos y Stephania",
+    "pases": 2
+  },
+    "Fiorela": {
+    "nombre": "Amiga Fio",
+    "pases": 1
+  },
+    "Gladys-Pamela": {
+    "nombre": "Querida madre y Hermana fea",
+    "pases": 3
+  },
+    "Tia-Edubijes": {
+    "nombre": "Tia Dubi",
+    "pases": 3
+  },
+    "Kevin": {
+    "nombre": "Primo Kevin",
+    "pases": 1
+  },
+    "Prima-Valery": {
+    "nombre": "Prima Valery",
+    "pases": 2
+  },
+    "Fermin": {
+    "nombre": "Querido Padre",
+    "pases": 1
+  },
+    "Danny-Melissa": {
+    "nombre": "Querido Hermano y Melissa",
+    "pases": 4
+  },
+    "Papas-Meli": {
+    "nombre": "Amigos Ulices y Zaira",
+    "pases": 2
+  },
+    "Tia-Eunice": {
+    "nombre": "Tia Uni",
+    "pases": 2
+  },
+    "Prima-Wendy": {
+    "nombre": "Prima Wendy",
+    "pases": 3
+  },
+    "Prima-Daniela": {
+    "nombre": "Prima Daniela",
+    "pases": 4
+  },
+    "Tia-Loli": {
+    "nombre": "Querida Tia Loli y tio Valencia",
+    "pases": 2
+  },
+    "Prima-Ale": {
+    "nombre": "Prima Ale",
+    "pases": 1
+  },
+    "Primo-Alejandro": {
+    "nombre": "Primo Alejandro y Lily",
+    "pases": 2
+  },
+    "Primo-Calo": {
+    "nombre": "Prima Paula",
+    "pases": 3
+  },
+    "Primo-Nestor": {
+    "nombre": "Primo Nestor y Gaby",
+    "pases": 3
+  },
+    "Tia-Nena": {
+    "nombre": "Tia Nena",
+    "pases": 1
+  },
+    "Primo-Mau": {
+    "nombre": "Primo Mau",
+    "pases": 1
+  },
+    "Primo-Oscar": {
+    "nombre": "Primo Oscar",
+    "pases": 3
+  },
+    "Prima-Karla": {
+    "nombre": "Prima Karla",
+    "pases": 2
+  },
+    "Prima-Ericka": {
+    "nombre": "Prima Ericka",
+    "pases": 2
+  },
+    "Prima-Nela": {
+    "nombre": "Prima Nela",
+    "pases": 3
+  },
+    "Tio-Gery": {
+    "nombre": "Tio Gery y Mari",
+    "pases": 2
+  },
+    "Primo-Way": {
+    "nombre": "Primo Way",
+    "pases": 2
+  },
+    "Tio-Olivier": {
+    "nombre": "Tio Olivier",
+    "pases": 1
+  },
+    "Tio-Nago": {
+    "nombre": "Tio Nago",
+    "pases": 1
+  },
+    "Fallas": {
+    "nombre": "Amigos fallas",
+    "pases": 5
+  },
+    "Primo-Jairo": {
+    "nombre": "Primo Jairo",
+    "pases": 4
+  },
+    "Mirella": {
+    "nombre": "Mirella",
     "pases": 2
   }
 }
