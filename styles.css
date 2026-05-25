@@ -1,0 +1,38 @@
+:root{
+  --navy:#071d34;
+  --blue:#0f3157;
+  --gold:#c9a24e;
+  --soft-gold:#e8d6aa;
+  --white:#fffaf0;
+  --paper:#fbf7ef;
+  --text:#17263b;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Montserrat,Arial,sans-serif;background:var(--paper);color:var(--text)}
+a{text-decoration:none;color:inherit}.hero{min-height:100vh;position:relative;background:url('assets/4F70349C-B0CB-41E2-8460-C0B34E02439C.jpeg') center/cover no-repeat;display:grid;place-items:center;overflow:hidden}.hero-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.18),rgba(0,0,0,.55))}.nav{position:absolute;top:0;left:0;right:0;z-index:3;display:flex;gap:26px;align-items:center;padding:22px 7vw;color:#fff;text-transform:uppercase;font:600 12px Montserrat;letter-spacing:1px}.monogram{margin-right:auto;color:var(--gold);font-family:Cinzel,serif;font-size:22px;border:1px solid rgba(201,162,78,.5);padding:8px 12px;border-radius:50%}.hero-content{position:relative;z-index:2;text-align:left;width:min(920px,88vw);color:white}.eyebrow{font-family:Cinzel,serif;text-transform:uppercase;letter-spacing:2px;color:var(--gold);font-weight:600}.eyebrow.dark{color:var(--blue)}h1{font-family:Cinzel,serif;font-size:clamp(52px,9vw,104px);line-height:.95;margin:8px 0;text-shadow:0 8px 22px rgba(0,0,0,.45)}h1 span{font-family:Great Vibes,cursive;color:var(--gold);font-size:.8em}h2{font-family:Cinzel,serif;font-size:clamp(28px,4vw,46px);margin:8px 0;color:var(--blue)}.date{font-family:Cinzel,serif;color:var(--soft-gold);font-size:22px;letter-spacing:2px}.divider{width:260px;border-top:1px solid var(--gold);border-bottom:1px solid transparent;margin:22px 0;color:var(--gold);text-align:center}.divider span{background:transparent;padding:0 10px}.countdown{display:flex;gap:18px;flex-wrap:wrap;margin:28px 0}.countdown div{min-width:90px;text-align:center;border:1px solid rgba(232,214,170,.55);background:rgba(7,29,52,.35);backdrop-filter:blur(4px);padding:14px;border-radius:18px}.countdown strong{display:block;color:var(--gold);font-size:30px;font-family:Cinzel}.countdown small{text-transform:uppercase;font-size:10px;letter-spacing:1px}.btn{display:inline-block;padding:13px 22px;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:white;font-weight:700;text-transform:uppercase;font-size:12px;letter-spacing:1px;box-shadow:0 10px 22px rgba(0,0,0,.15)}.primary{margin-top:4px}.music{position:fixed;right:22px;top:22px;z-index:20;width:54px;height:54px;border-radius:50%;border:1px solid var(--gold);background:rgba(7,29,52,.76);color:var(--gold);font-size:25px}.verse{text-align:center;padding:78px 20px;background:var(--white);position:relative}.quote-mark{font-family:Great Vibes;font-size:76px;color:var(--gold);margin:0}.verse h2{font-family:Cinzel,serif;font-weight:500;color:var(--blue);line-height:1.25}.details{padding:80px 7vw;text-align:center}.cards{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:38px}.cards article{background:white;border:1px solid rgba(201,162,78,.25);border-radius:24px;padding:28px 16px;box-shadow:0 18px 50px rgba(7,29,52,.07)}.cards span{font-size:28px}.cards h3{font-family:Cinzel;color:var(--blue);font-size:16px;text-transform:uppercase}.locations{background:var(--navy);padding:70px 7vw;color:white}.location-card{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;margin:0 auto 36px;max-width:1100px;border-bottom:1px solid rgba(201,162,78,.35);padding-bottom:36px}.location-card h2{color:var(--soft-gold);font-size:28px}.location-card iframe{width:100%;height:280px;border:6px solid white;border-radius:18px}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(201,162,78,.28);padding:0 7vw}.gift,.confirm{background:var(--paper);padding:70px 8%;text-align:center}.script{font-family:Great Vibes,cursive;color:var(--gold);font-size:34px}.whatsapp{background:#25D366;border-color:#25D366}.gallery{padding:75px 4vw;text-align:center;background:white}.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:30px}.grid img{width:100%;height:230px;object-fit:cover;border-radius:12px;border:5px solid var(--paper);box-shadow:0 12px 28px rgba(0,0,0,.12)}.closing{min-height:430px;background:linear-gradient(rgba(7,29,52,.2),rgba(7,29,52,.85)),url('assets/52DBF876-0E14-4D63-A9DB-45592196B2BB.jpeg') center/cover no-repeat;display:grid;place-items:center;text-align:center;color:white;padding:70px 20px}.closing h2{font-family:Great Vibes,cursive;color:var(--soft-gold);font-size:60px}.reveal{opacity:0;transform:translateY(22px);transition:all .9s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:900px){.nav a{display:none}.hero{background-position:center}.hero-content{text-align:center}.divider{margin:20px auto}.countdown{justify-content:center}.cards{grid-template-columns:repeat(2,1fr)}.location-card,.two-col{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.grid img{height:220px}h1{font-size:54px}.cards{gap:12px}}@media(max-width:520px){.cards{grid-template-columns:1fr}.countdown div{min-width:72px;padding:10px}.countdown strong{font-size:24px}.hero-content{padding-top:80px}.gift,.confirm{padding:52px 20px}.locations{padding:52px 20px}.location-card iframe{height:220px}}
+
+/* 1. Contenedor que centra los cuadros */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 38px;
+}
+
+/* 2. Regla para cada cuadro individual (Garantiza el mismo tamaño) */
+.cards article {
+  background: white;
+  border: 1px solid rgba(201, 162, 78, .25);
+  border-radius: 24px;
+  padding: 28px 16px;
+  box-shadow: 0 18px 50px rgba(7, 29, 52, .07);
+  
+  /* --- NUEVAS LÍNEAS PARA IGUALAR TAMAÑOS --- */
+  width: 190px;          /* Define un ancho fijo exacto para todos los cuadros */
+  display: flex;         /* Convierte el interior en flex */
+  flex-direction: column;/* Alinea el emoji, título y texto hacia abajo */
+  align-items: center;   /* Centra el contenido internamente */
+  text-align: center;    /* Centra los textos */
+}

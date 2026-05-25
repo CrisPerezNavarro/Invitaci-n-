@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Boda Angie & Cristhofer</title>
+  <meta name="description" content="Invitación de boda de Angie & Cristhofer - 25 de julio de 2026" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/tu-fidelidad-instrumental.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button class="music" id="musicBtn" aria-label="Activar música">♪</button>
+
+  <header class="hero" id="inicio">
+    <nav class="nav">
+      <div class="monogram">A & C</div>
+      <a href="#detalles">Detalles</a>
+      <a href="#ubicaciones">Ubicaciones</a>
+      <a href="#confirmacion">Confirmar</a>
+    </nav>
+
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <p class="eyebrow">Nuestra boda</p>
+      <h1>Angie <span>&</span> Cristhofer</h1>
+      <div class="divider"><span>♥</span></div>
+      <p class="date">25 de julio de 2026</p>
+      
+      <div class="countdown" id="countdown">
+        <div><strong id="days">0</strong><small>Días</small></div>
+        <div><strong id="hours">0</strong><small>Horas</small></div>
+        <div><strong id="minutes">0</strong><small>Minutos</small></div>
+        <div><strong id="seconds">0</strong><small>Segundos</small></div>
+      </div>
+      <a class="btn primary" href="#detalles">Ver detalles</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="verse reveal">
+      <p class="quote-mark">“</p>
+      <h2>Y sobre todas las cosas,<br>vístanse de amor.</h2>
+      <p>Colosenses 3:14</p>
+    </section>
+
+    <section class="details reveal" id="detalles">
+      <p class="eyebrow dark">Con amor les invitamos a celebrar</p>
+      <h2>El inicio de nuestra historia juntos</h2>
+      <div class="cards">
+        <article>
+          <span>📅</span>
+          <h3>Fecha</h3>
+          <p>25 de julio de 2026</p>
+        </article>
+        <article>
+          <span>🕒</span>
+          <h3>Hora</h3>
+          <p>3:30 p.m.</p>
+        </article>
+        <article>
+          <span>⛪</span>
+          <h3>Ceremonia</h3>
+          <p>Parroquia Nuestra Señora de Lourdes, San Vito.</p>
+        </article>
+        <article>
+          <span>🥂</span>
+          <h3>Recepción</h3>
+          <p>Salón Comunal de San Vito.</p>
+        </article>
+        
+        <article>
+          <span>👥</span>
+          <h3>Espacios</h3>
+          <p id="textoEspacios">Hemos reservado espacios para ti.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="locations" id="ubicaciones">
+      <div class="location-card reveal">
+        <div>
+          <p class="eyebrow">Ceremonia religiosa</p>
+          <h2>3:30 p.m.</h2>
+          <p>Parroquia Nuestra Señora de Lourdes de San Vito.</p>
+          <a class="btn" target="_blank" rel="noopener" href="https://maps.google.com?q=R29H+MGC%20Parroquia%20Nuestra%20Se%C3%B1ora%20de%20Lourdes%20de%20San%20Vito,%20Provincia%20de%20Puntarenas,%20San%20Vito&ftid=0x8fa4344a0eeaaaab:0xcf8763d4de922712&entry=gps&shh=CAE&lucs=,94297699,94284499,94231188,94280568,47071704,94218641,94282134,100799872,94286869&g_st=ic">Ver ubicación</a>
+        </div>
+        <iframe title="Mapa Iglesia" src="https://www.google.com/maps?q=Parroquia%20Nuestra%20Se%C3%B1ora%20de%20Lourdes%20de%20San%20Vito&output=embed" loading="lazy"></iframe>
+      </div>
+
+      <div class="location-card reveal">
+        <div>
+          <p class="eyebrow">Recepción</p>
+          <h2>A partir de las 5:00 p.m.</h2>
+          <p>Salón Comunal de San Vito</p>
+          <a class="btn" target="_blank" rel="noopener" href="https://maps.app.goo.gl/bPpGYeFqwUhq3X9t5?g_st=ic">Ver ubicación</a>
+        </div>
+        <iframe title="Mapa Recepción" src="https://www.google.com/maps?q=Sal%C3%B3n%20Comunal%20de%20San%20Vito&output=embed" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div class="gift reveal">
+        <h2>Regalos</h2>
+        <p>Su presencia será nuestro mayor regalo. Sin embargo, si desean bendecirnos con un detalle adicional, agradeceremos de corazón una contribución en efectivo para el inicio de nuestro nuevo hogar.</p>
+        <p class="script">¡Gracias por su amor y apoyo!</p>
+      </div>
+      
+      <div class="confirm reveal" id="confirmacion">
+        <h2>Confirmación</h2>
+        <p id="saludoConfirmacion">Por favor, confirma tu asistencia.</p>
+        <p>Confirma antes del <strong>15 de junio de 2026</strong>.</p>
+        
+        <a id="whatsappBtn1" class="btn whatsapp" target="_blank" rel="noopener" href="#">
+          Confirmar con Angie
+        </a>
+        
+        <div style="margin-top: 12px;"></div> 
+        
+        <a id="whatsappBtn2" class="btn whatsapp" target="_blank" rel="noopener" href="#">
+          Confirmar con Cristhofer
+        </a>
+      </div>
+    </section>
+
+    <section class="gallery reveal">
+      <p class="eyebrow dark">Nuestra historia</p>
+      <h2>Un amor vestido de promesa</h2>
+      <div class="grid">
+        <img src="assets/D0FC4334-D2E6-42D6-9229-C96CFB98C5C2.jpeg" alt="Angie y Cristhofer" />
+        <img src="assets/A3540C53-3510-4222-9F10-6FB3ED93C4C0.jpeg" alt="Angie y Cristhofer" />
+        <img src="assets/F352DAB9-B838-4CC4-9A9F-0B8D9F084919.jpeg" alt="Anillo de compromiso" />
+        <img src="assets/256E46B5-C349-419F-A146-E8CBD8483CB0.jpeg" alt="Angie y Cristhofer" />
+        <img src="assets/52DBF876-0E14-4D63-A9DB-45592196B2BB.jpeg" alt="Angie y Cristhofer caminando" />
+        <img src="assets/06286FAE-5F98-4268-B7A8-3E391A55078A.jpeg" alt="Angie y Cristhofer" />
+      </div>
+    </section>
+
+    <section class="closing reveal">
+      <h2>¡Nos vemos en nuestro gran día!</h2>
+      <p>Con amor,<br><strong>Angie & Cristhofer</strong></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
