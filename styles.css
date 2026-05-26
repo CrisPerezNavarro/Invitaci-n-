@@ -36,3 +36,72 @@ a{text-decoration:none;color:inherit}.hero{min-height:100vh;position:relative;ba
   align-items: center;   /* Centra el contenido internamente */
   text-align: center;    /* Centra los textos */
 }
+
+/* ==========================================
+   PANTALLA DE BIENVENIDA ESTILIZADA
+   ========================================== */
+
+/* Contenedor general en pantalla completa */
+.welcome-overlay {
+  position: fixed;
+  inset: 0;
+  background: #071d34; /* Tu color azul marino oscuro original */
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  transition: opacity 0.8s ease, visibility 0.8s ease;
+}
+
+.welcome-content {
+  width: min(450px, 90vw);
+  padding: 20px;
+}
+
+/* Título de los novios (Blanco brillante e impactante) */
+.welcome-content h2 {
+  color: #ffffff !important;   /* Fuerza el color blanco */
+  font-size: 2.5rem;          /* Tamaño elegante para pantallas */
+  text-transform: uppercase;  /* Mayúsculas como en la imagen */
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+
+/* Texto superior decorativo */
+.welcome-content .eyebrow {
+  color: #c9a24e;             /* Color dorado original */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+}
+
+/* --- TRUCO DEL DIVISOR DEL CORAZÓN PERFECTAMENTE CENTRADO --- */
+.welcome-content .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 65%;                 /* Limita el ancho de la línea para que calce con los nombres */
+}
+
+/* Crea la línea izquierda y derecha dinámicamente */
+.welcome-content .divider::before,
+.welcome-content .divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #c9a24e; /* Línea dorada fina */
+}
+
+/* Espaciado del corazón en el centro de las líneas */
+.welcome-content .divider span {
+  padding: 0 15px;
+  color: #c9a24e;             /* Corazón dorado */
+  font-size: 1.2rem;
+}
+
+/* Clase para ocultar la pantalla suavemente */
+.welcome-overlay.hidden {
+  opacity: 0;
+  visibility: hidden;
+}

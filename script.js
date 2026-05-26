@@ -132,6 +132,31 @@ async function personalizarInvitacion() {
   }
 }
 
+// ==========================================
+// TRUCO DE PANTALLA DE BIENVENIDA PARA LA MÚSICA
+// ==========================================
+document.addEventListener('DOMContentLoaded', () => {
+  const welcomeOverlay = document.getElementById('welcomeOverlay');
+  const enterBtn = document.getElementById('enterBtn');
+  const musicBtn = document.getElementById('musicBtn');
+
+  if (enterBtn && welcomeOverlay) {
+    enterBtn.addEventListener('click', async () => {
+      // 1. Ocultar la pantalla de bienvenida con efecto suave
+      welcomeOverlay.classList.add('hidden');
+      
+      // 2. Intentar reproducir la música (ya que el usuario hizo clic)
+      try {
+        await music.play();
+        if (musicBtn) musicBtn.textContent = 'Ⅱ';
+        playing = true;
+      } catch (e) {
+        console.log("El navegador bloqueó el audio automático.");
+      }
+    });
+  }
+});
+
 // Ejecutar la función al cargar la página
 document.addEventListener('DOMContentLoaded', personalizarInvitacion);
 
