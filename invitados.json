@@ -1,37 +1,37 @@
 {
-    "La-Magalis": {
-    "nombre": "Querida hermana Magaly",
-    "pases": 1
-  },
-    "Rojas-Venegas": {
-    "nombre": "Queridos Padre y Madre",
-    "pases": 3
-  },
-    "Artavia-Rojas": {
-    "nombre": "Querida Hermana y Tony, dejar a Santi y pueden irse",
-    "pases": 3
-  },
-    "Victicor-Rojas": {
-    "nombre": "Querido Hermano",
+    "Magalis": {
+    "nombre": "Querida hermana Magaly y sobrina Alissa",
     "pases": 2
   },
-    "Familia-Artavia": {
-    "nombre": "Familia Artavia",
+    "Papas-Angie": {
+    "nombre": "Queridos Papi y Mami",
+    "pases": 2
+  },
+    "Idaly": {
+    "nombre": "Querida Hermana y Tony, esperamos disfrutar este dia junto a ustedes y al pequeño Santi",
+    "pases": 3
+  },
+    "Victicor": {
+    "nombre": "Hermano",
+    "pases": 2
+  },
+    "Artavia": {
+    "nombre": "Familia Artavia Alfaro",
     "pases": 4
   },
-    "Familia-Danilo": {
-    "nombre": "Familia Danilo",
+    "Danilo": {
+    "nombre": "Amigos Danilo y Sonia",
     "pases": 4
   },
-    "Perez-Rojas": {
-    "nombre": "Perez Rojas",
+    "Primo-Mari": {
+    "nombre": "Queridos primos Jefrey y Mari",
     "pases": 4
   },
-    "Tia-Elena": {
+    "Tio-Elena": {
     "nombre": "Tia Elena",
     "pases": 1
   },
-    "Prima-Karol": {
+    "Primo-Karol": {
     "nombre": "Prima Karol",
     "pases": 3
   },
@@ -48,7 +48,7 @@
     "pases": 1
   },
      "Tia-Seidy-Venegas": {
-    "nombre": "Tia Seidy Venegas",
+    "nombre": "Tia Seidy Venegas y familia",
     "pases": 3
   },
     "Pablo": {
@@ -56,7 +56,7 @@
     "pases": 6
   },
     "Tia-Seidy-Rojas": {
-    "nombre": "Tia Seidy Rojas",
+    "nombre": "Tia Seidy y Eduardo",
     "pases": 2
   },
     "Joseph": {
@@ -73,21 +73,17 @@
   },
     "Arturo": {
     "nombre": "Amigo Arturo y Katherine",
-    "pases": 2
-  },
-    "Papas-Arturo": {
-    "nombre": "Amigos",
-    "pases": 2
+    "pases": 4
   },
     "Tia-Marielos": {
-    "nombre": "Tia Marielos",
-    "pases": 2
-  },
-    "Prima-Karla-Venegas": {
-    "nombre": "Prima Karla",
+    "nombre": "Tia Marielos y Luis",
     "pases": 3
   },
-    "Prima-Pau": {
+    "Primo-Karla-Venegas": {
+    "nombre": "Prima Karla y familia",
+    "pases": 3
+  },
+    "Primo-Pau": {
     "nombre": "Prima Paula",
     "pases": 2
   },
@@ -99,19 +95,23 @@
     "nombre": "Amiga Kerlyn",
     "pases": 2
   },
+    "Gemelas": {
+    "nombre": "Queridas amiguitas",
+    "pases": 2
+  },
     "Eladio": {
     "nombre": "Jorge y Yorlenita",
     "pases": 2
   },
     "Madrina": {
-    "nombre": "Prima Paula",
+    "nombre": "Madrina",
     "pases": 1
   },
     "Tio-Juan": {
     "nombre": "Tio Juan",
     "pases": 1
   },
-    "Carlos": {
+    "Primo-Carlos": {
     "nombre": "Carlos y Stephania",
     "pases": 2
   },
@@ -119,12 +119,20 @@
     "nombre": "Amiga Fio",
     "pases": 1
   },
+    "Jefe": {
+    "nombre": "Pedro y Jimena",
+    "pases": 2
+  },
+    "Juan": {
+    "nombre": "Amigo Juan",
+    "pases": 1
+  },
     "Gladys-Pamela": {
     "nombre": "Querida madre y Hermana fea",
     "pases": 3
   },
-    "Tia-Edubijes": {
-    "nombre": "Tia Dubi",
+    "Tia-Eduvijes": {
+    "nombre": "Tia Duvi, Nathy y Melanny",
     "pases": 3
   },
     "Kevin": {
@@ -139,8 +147,8 @@
     "nombre": "Querido Padre",
     "pases": 1
   },
-    "Danny-Melissa": {
-    "nombre": "Querido Hermano y Melissa",
+    "Danny-Melisa": {
+    "nombre": "Queridos padrinos, su amor y compañía hacen este día aún más especial. Y para Dannito y Bianca... ¡No olviden su gran misión de llevar las arras y nuestros anillos!",
     "pases": 4
   },
     "Papas-Meli": {
@@ -172,7 +180,7 @@
     "pases": 2
   },
     "Primo-Calo": {
-    "nombre": "Prima Paula",
+    "nombre": "Primo Calo",
     "pases": 3
   },
     "Primo-Nestor": {
@@ -188,7 +196,7 @@
     "pases": 1
   },
     "Primo-Oscar": {
-    "nombre": "Primo Oscar",
+    "nombre": "Primo Oscar y Melanny",
     "pases": 3
   },
     "Prima-Karla": {
@@ -200,7 +208,7 @@
     "pases": 2
   },
     "Prima-Nela": {
-    "nombre": "Prima Nela",
+    "nombre": "Prima Nela y Javi",
     "pases": 3
   },
     "Tio-Gery": {
@@ -208,7 +216,7 @@
     "pases": 2
   },
     "Primo-Way": {
-    "nombre": "Primo Way",
+    "nombre": "Primo Way y Liss",
     "pases": 2
   },
     "Tio-Olivier": {
@@ -220,15 +228,15 @@
     "pases": 1
   },
     "Fallas": {
-    "nombre": "Amigos fallas",
+    "nombre": "Amigos Fallas",
     "pases": 5
   },
     "Primo-Jairo": {
-    "nombre": "Primo Jairo",
+    "nombre": "Primo Jairo y Mari",
     "pases": 4
   },
     "Mirella": {
-    "nombre": "Mirella",
+    "nombre": "Mirella y Steven",
     "pases": 2
   }
 }
